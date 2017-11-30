@@ -28,7 +28,7 @@ Button(start2, text='Next', command=start2.quit).grid(row=50, column=0, sticky=W
 start2.mainloop()
 
 start3 = Tk()
-Label(start3, text="4) This program also requires an average flight altitude which can be entered based on altitude set for flight plan or found in the Processing Report on page 2 (File...Generate Report) ",wraplength=300, justify = LEFT).grid(row=0)
+Label(start3, text="4) This program also requires a path for location of SRTM3 DEMs for study region to calculate height above ground.",wraplength=300, justify = LEFT).grid(row=0)
 
 
 Button(start3, text='Next', command=start3.quit).grid(row=5, column=0, sticky=W, pady=4)
